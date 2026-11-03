@@ -4,7 +4,7 @@ Developer disk cleaner for macOS.
 
 `dross` finds build artifacts such as `node_modules`, `target`, and `.venv`, shows how much space they use, and moves them to the Trash. Permanent deletion is a separate, explicit step.
 
-v0.1.10 runs on Apple Silicon and Intel. The source is not published in this organization.
+v0.1.11 runs on Apple Silicon and Intel. The source is not published in this organization.
 
 ## Install
 
