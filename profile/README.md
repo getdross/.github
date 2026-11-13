@@ -4,7 +4,7 @@ Yosr Dross is a developer disk cleaner for macOS. The command is `dross`.
 
 `dross` finds build artifacts such as `node_modules`, `target`, `.venv`, JVM (`target` with `pom.xml`, `build`, `.gradle`) and .NET (`bin`, `obj`), shows how much space they use, and moves them to the Trash. It also sizes macOS developer caches including `maven`, `gradle`, and `nuget`, and the disk used by Docker Desktop, OrbStack, Colima, and Podman. Container leftovers (dangling images, dangling build cache, stopped containers) are pruned only through each runtime's own CLI, after you pick them; dross never starts a daemon or touches a VM disk. Permanent deletion is a separate, explicit step.
 
-v0.4.0 runs on Apple Silicon and Intel. The source is not published in this organization.
+v0.4.1 runs on Apple Silicon and Intel. The source is not published in this organization.
 
 ## Install
 
